@@ -1,7 +1,8 @@
 # Neural-Networks
 ### **Implemented Convolutional Neural Network, Neural Network From Scratch.**
 
-* **Convolutional Neural Network**: Implemented Convolutional Neural Network from SCRATCH!
+## **Convolutional Neural Network**
+--> Implemented Convolutional Neural Network from SCRATCH!
   * **Dataset** : 42,000 Images of Hand Written Digtis (0-9). Each digit has around 3500-4000 Images.
   * **Network Architecture** : 
     ![](https://github.com/navjindervirdee/neural-networks/blob/master/Convolutional%20Neural%20Network/Forward.JPG?raw=true)
@@ -42,7 +43,9 @@
     
   * Learned about  the implementation details of forward propagation and backward propagation algorithms used in CNN's and how different       activation functions affect the training accuracy.
 
-* **Neural Network**: Implemented 1-hidden layer neural network for the classification of Iris Dataset. Learned about the detailed           implementation of forward and backward propagation algorithms used in the neural network. Learned ways to easily compute gradients for     any function.
+
+## **Neural Network**: 
+Implemented 1-hidden layer neural network for the classification of Iris Dataset. Learned about the detailed           implementation of forward and backward propagation algorithms used in the neural network. Learned ways to easily compute gradients for     any function.
 
   * **Dataset** - Iris Dataset
   * **Network Architecture** :
