@@ -84,7 +84,7 @@ The expression long short-term refers to the fact that LSTM is a model for the s
   * **Results** :
     1. Perplexity : 1.05
     2. Accuracy   : 85%
-    
+    3. **Awesome names predicted like -- Donald, Margaret, Harris, Isabella, William**
   * Learned about  the implementation details of forward propagation and backward propagation through time algorithms used in RNN's and how different       activation functions affect the training accuracy.
 
 ## **Neural Network**: 
