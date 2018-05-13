@@ -109,7 +109,3 @@ An ANN is based on a collection of connected units or nodes called artificial ne
     3. Cal Loss And Accuracy
     4. Backward Propagation
     5. Update Parameters
-
-* Currently learning and working on the Recurrent Neural Networks. 
-
-
