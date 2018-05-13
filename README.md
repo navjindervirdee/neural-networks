@@ -2,7 +2,16 @@
 ### **Implemented Convolutional Neural Network, Neural Network From Scratch.**
 
 ## **Convolutional Neural Network**
---> Implemented Convolutional Neural Network from SCRATCH!
+
+In machine learning, a convolutional neural network (CNN, or ConvNet) is a class of deep, feed-forward artificial neural networks that has successfully been applied to analyzing visual imagery.
+
+CNNs use a variation of multilayer perceptrons designed to require minimal preprocessing. They are also known as shift invariant or space invariant artificial neural networks (SIANN), based on their shared-weights architecture and translation invariance characteristics.
+
+CNNs use relatively little pre-processing compared to other image classification algorithms. This means that the network learns the filters that in traditional algorithms were hand-engineered. This independence from prior knowledge and human effort in feature design is a major advantage.
+
+They have applications in image and video recognition, recommender systems and natural language processing.
+
+--> **Implemented Convolutional Neural Network from SCRATCH!**
   * **Dataset** : 42,000 Images of Hand Written Digtis (0-9). Each digit has around 3500-4000 Images.
   * **Network Architecture** : 
     ![](https://github.com/navjindervirdee/neural-networks/blob/master/Convolutional%20Neural%20Network/Forward.JPG?raw=true)
@@ -45,7 +54,12 @@
 
 
 ## **Neural Network**: 
-Implemented 1-hidden layer neural network for the classification of Iris Dataset. Learned about the detailed           implementation of forward and backward propagation algorithms used in the neural network. Learned ways to easily compute gradients for     any function.
+
+Artificial neural networks (ANNs) or connectionist systems are computing systems vaguely inspired by the biological neural networks that constitute animal brains. Such systems "learn" (i.e. progressively improve performance on) tasks by considering examples, generally without task-specific programming. 
+
+An ANN is based on a collection of connected units or nodes called artificial neurons. Each connection (a simplified version of a synapse) between artificial neurons can transmit a signal from one to another. The artificial neuron that receives the signal can process it and then signal artificial neurons connected to it.
+
+**Implemented 1-hidden layer neural network for the classification of Iris Dataset. Learned about the detailed           implementation of forward and backward propagation algorithms used in the neural network. Learned ways to easily compute gradients for     any function.**
 
   * **Dataset** - Iris Dataset
   * **Network Architecture** :
