@@ -1,5 +1,5 @@
 # Neural-Networks
-### **Implemented Convolutional Neural Network, Neural Network From Scratch.**
+### **Implemented Convolutional Neural Network, LSTM Neural Network and Neural Network From Scratch.**
 
 ## **Convolutional Neural Network**
 
@@ -52,6 +52,40 @@ They have applications in image and video recognition, recommender systems and n
     
   * Learned about  the implementation details of forward propagation and backward propagation algorithms used in CNN's and how different       activation functions affect the training accuracy.
 
+## **LSTM Neural Network**:
+
+Long short-term memory (LSTM) units (or blocks) are a building unit for layers of a recurrent neural network (RNN). A RNN composed of LSTM units is often called an LSTM network. A common LSTM unit is composed of a cell, an input gate, an output gate and a forget gate. The cell is responsible for "remembering" values over arbitrary time intervals; hence the word "memory" in LSTM. Each of the three gates can be thought of as a "conventional" artificial neuron, as in a multi-layer (or feedforward) neural network: that is, they compute an activation (using an activation function) of a weighted sum. Intuitively, they can be thought as regulators of the flow of values that goes through the connections of the LSTM; hence the denotation "gate". There are connections between these gates and the cell.
+
+The expression long short-term refers to the fact that LSTM is a model for the short-term memory which can last for a long period of time. An LSTM is well-suited to classify, process and predict time series given time lags of unknown size and duration between important events. LSTMs were developed to deal with the exploding and vanishing gradient problem when training traditional RNNs.
+
+--> **Implemented LSTM Neural Network from SCRATCH!**
+* **Dataset** : US Baby's First Names
+* **Network Architecture** :
+![](https://github.com/navjindervirdee/neural-networks/blob/master/Recurrent%20Neural%20Network/LSTMForward.JPG?raw=true)
+
+ * **Actvation Function** :
+    1. Sigmoid
+    2. Softmax
+    3. Tanh
+    
+ * **Functions Implemented using Numpy** :
+    1. Initialize Parameters
+    2. Forward Propagation
+    3. Cal Loss And Accuracy and Perplexity
+    4. Backward Propagation
+    5. Update Parameters
+    6. Update Embeddings
+    
+  * **Libraries Used** : 
+    1. Numpy
+    2. Pandas
+    3. Matplot
+    
+  * **Results** :
+    1. Perplexity : 1.05
+    2. Accuracy   : 85%
+    
+  * Learned about  the implementation details of forward propagation and backward propagation through time algorithms used in RNN's and how different       activation functions affect the training accuracy.
 
 ## **Neural Network**: 
 
